@@ -1,0 +1,88 @@
+header{
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+body{
+	background-color: azure;
+}
+
+h1{
+	font-style: italic;
+	font-size: 30px;
+	color: seagreen;
+}
+
+#arrastar {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	margin: 10px 10px 10px 10px;
+	background: #FF5500;
+	text-align: center;
+	color: #fff;
+	border-radius: 50px;
+}
+
+#soltar {
+	position: absolute;
+	margin: 100px 10px 10px 600px;
+	width: 200px;
+	height: 200px;
+	background: #777777;
+	color: #fff;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#contenedor {
+	position: absolute;
+	left: 33%;
+	border: 1px solid;
+}
+
+.row {
+	display: inline-block;
+}
+
+.col-green {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: seagreen;
+}
+
+.col-white {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: white;
+}
+
+.ficha1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	margin-top: 14px;
+  margin-left: 14px;
+  border-radius: 25px;
+  -webkit-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+}
+
+.ficha2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	margin-top: 14px;
+  margin-left: 14px;
+  border-radius: 25px;
+  -webkit-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 4px 16px 0px rgba(0,0,0,0.75);
+}
